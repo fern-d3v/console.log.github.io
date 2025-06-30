@@ -1,0 +1,118 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Terminal Container */
+.terminal {
+  background-color: #404040;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Terminal Header */
+.terminal-header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: auto; /* Optional - controls logo size */
+}
+
+/* Inside Terminal Layout */
+.terminal-header,
+.terminal-body,
+.terminal-footer {
+  margin-bottom: 1rem;
+}
+
+.terminal-body p,
+.terminal-body li {
+  color: white;
+  font-size: small;
+}
+
+.terminal-body {
+  padding: 1rem;
+}
+
+.terminal-body h1,
+.terminal-body h3 {
+  color: #404040;
+  margin-bottom: 0.5rem;
+  font-size: x-large;
+}
+
+.terminal-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #759770;
+}
+
+a {
+  color: #759770;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Terminal Prompt Styling */
+.prompt {
+  color: #759770;
+  font-weight: bold;
+}
+
+/* Blog Post Styles */
+article {
+  border-bottom: 1px solid #759770;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+article:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+article h2,
+article h1 {
+  color: #d3d3d3;
+  margin-bottom: 0.5rem;
+}
+
+time {
+  display: block;
+  font-size: 0.9rem;
+  color: #759770;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.5;
+  color: #b0b0b0;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
