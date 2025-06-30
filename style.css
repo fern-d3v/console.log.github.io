@@ -74,7 +74,9 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline white;
+  text-transform: uppercase;
+  text-decoration-skip-ink: auto;
 }
 
 /* Terminal Prompt Styling */
