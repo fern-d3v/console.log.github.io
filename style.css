@@ -62,6 +62,15 @@ body {
   font-size: x-large;
 }
 
+.obsidian-content img{
+  max-width: 300px;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0;
+  border-radius: 4px;
+}
+
 .terminal-footer {
   text-align: center;
   font-size: 0.9rem;
