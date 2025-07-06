@@ -6,14 +6,15 @@
 }
 
 body {
-  background-color: #000000;
-  font-family: "JetBrains Mono", monospace;
-  color: white;
-  display: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 1rem;
+  background-color: #000000;
+  font-family: "JetBrains Mono", monospace;
+  color: #ffffff;
 }
 
 /* Terminal Container */
@@ -28,14 +29,13 @@ body {
 
 /* Terminal Header */
 .terminal-header {
-  margin-bottom: 1rem;
   text-align: center;
 }
 
 .logo {
   display: block;
-  margin: 0 auto 1rem auto;
-  max-width: auto; /* Optional - controls logo size */
+  margin: 0 auto 1px auto;
+  max-width: 100%;
 }
 
 /* Inside Terminal Layout */
@@ -47,24 +47,33 @@ body {
 
 .terminal-body p,
 .terminal-body li {
-  color: white;
-  font-size: small;
+  color: #ffffff;
+  font-size: large;
 }
 
 .terminal-body {
-  padding: 1rem;
+  padding: 3rem;
+  border-left: solid 3px #404040;
 }
 
 .terminal-body h1,
 .terminal-body h3 {
   color: #404040;
   margin-bottom: 0.5rem;
-  font-size: x-large;
+  font-size: xx-large;
+}
+
+.obsidian-content img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0;
+  border-radius: 4px;
 }
 
 .terminal-footer {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: large;
   color: #759770;
 }
 
@@ -74,7 +83,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline white;
+  text-decoration: underline magenta;
   text-transform: uppercase;
   text-decoration-skip-ink: auto;
 }
@@ -82,7 +91,7 @@ a:hover {
 /* Terminal Prompt Styling */
 .prompt {
   color: #759770;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* Blog Post Styles */
@@ -99,7 +108,7 @@ article:last-of-type {
 
 article h2,
 article h1 {
-  color: #d3d3d3;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
@@ -112,7 +121,7 @@ time {
 
 p {
   line-height: 1.5;
-  color: #b0b0b0;
+  color: #ffffff;
 }
 
 nav {

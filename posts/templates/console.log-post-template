@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>console.post-title</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="terminal-header">
+    <p><span class="prompt">fern-d3v</span>.blog</p>
+</header>
+
+<!-- Main Content -->
+<main class="terminal-body">
+    <h1>console.tools: your-post-title</h1>
+    <time datetime="YYYY-MM-DD">Month Day, Year</time><br />
+
+    <p>Intro paragraph goes here. Give a brief overview of what this post is about.</p><br />
+
+    <h3>First Impressions</h3>
+    <p>Your thoughts, background, or motivation related to this topic.</p><br />
+
+    <h3>What I Learned</h3>
+    <ul>
+        <li>First key takeaway</li>
+        <li>Second key takeaway</li>
+        <li>Third key takeaway</li>
+    </ul><br />
+
+    <h3>Struggles</h3>
+    <p>Talk about any challenges or roadblocks you faced.</p><br />
+
+    <h3>Small Wins</h3>
+    <p>List or describe small victories you achieved:</p>
+    <ul>
+        <li>First win</li>
+        <li>Second win</li>
+        <li>Third win</li>
+    </ul><br />
+
+    <h3>What's Next</h3>
+    <p>Describe your next steps or learning goals.</p><br />
+
+    <h3>Resources I Used</h3>
+    <ul>
+        <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+        <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+        <li><a href="https://www.github.com/">GitHub</a></li>
+    </ul><br />
+
+    <nav>
+        <a href="../../index.html">← return to console</a>
+    </nav>
+</main>
+
+<!-- Footer -->
+<footer class="terminal-footer">
+    <p>fern-d3v • console.log • <a href="https://fern-d3v.github.io">GitHub</a></p>
+</footer>
+
+</body>
+
+</html>
