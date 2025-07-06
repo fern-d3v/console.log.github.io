@@ -71,6 +71,14 @@ body {
   border-radius: 4px;
 }
 
+.obsidian-content img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 .terminal-footer {
   text-align: center;
   font-size: large;
